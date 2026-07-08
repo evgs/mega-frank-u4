@@ -8,7 +8,7 @@ This megafrank-u4 board is a sub-fork from https://github.com/rh1tech/frank repo
 This work is still in progress!  
 
 ## Changes
-- Two stacked USB-A ports were added on front board edge
+- Two stacked USB-A ports were added on front board edge. 4 USB-A host ports total
 - Power barrel 5mm connector was moved to right edge of the board
 - ESP-RESET connected to PGPIO36
 
