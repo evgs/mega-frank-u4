@@ -1,5 +1,5 @@
 # MEGAFRANK 1.02-U4
-MegaFRANK is a hardware emulation platform built around the Raspberry Pi RP2350 (Pico 2 modules and RP2350A QFN)
+MegaFRANK is a hardware emulation platform built around the Raspberry Pi RP2350 QFN module
 ![board view](https://github.com/evgs/mega-frank-u4/blob/main/img/megafrank-u4.png)
 
 ## DISCLAIMER 
