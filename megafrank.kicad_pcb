@@ -128,7 +128,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerbers/1_01")
+			(outputdirectory "gerbers/1_02-u4/")
 		)
 	)
 	(property "DATE" "2026-07-08")
@@ -4561,7 +4561,7 @@
 		(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x20 2.54mm double row")
 		(property "Reference" "J4"
-			(at 1.27 -2.13 90)
+			(at -2.75 2.47 180)
 			(layer "F.SilkS")
 			(uuid "7c9d6f0e-cde9-4a2d-b48a-2bc22131020e")
 			(effects
@@ -37051,7 +37051,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "S11"
-			(at 0 1.55 0)
+			(at -0.005 -1.645 0)
 			(layer "B.SilkS")
 			(uuid "11fed981-26b7-4c37-a0e7-7a732e92a876")
 			(effects
@@ -98701,6 +98701,19 @@
 			)
 		)
 	)
+	(gr_text "OFF   ON"
+		(at 120.75 141.75 0)
+		(layer "F.SilkS")
+		(uuid "ca612f2b-f6b6-488e-925d-ef0216399fbb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TYPE-C  HUB"
 		(at 219.925 63.475 90)
 		(layer "F.SilkS")
@@ -98842,19 +98855,6 @@
 				(bold yes)
 			)
 			(justify left)
-		)
-	)
-	(gr_text "OFF ON"
-		(at 119.025 141.75 0)
-		(layer "F.SilkS")
-		(uuid "ca612f2b-f6b6-488e-925d-ef0216399fbb")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "M2"
