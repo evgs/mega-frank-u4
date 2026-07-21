@@ -13,6 +13,6 @@ This work is still in progress!
 - ESP-RESET connected to PGPIO36
 
 ## Documentation
-BOM, Gerbers, schematic and assembly for [v1_02-u4](https://github.com/evgs/mega-frank-u4/tree/main/docs/1/02-u4)
+Coming soon...
 
 Please read detailed docs in original project [FRANK repository](https://github.com/rh1tech/frank)
