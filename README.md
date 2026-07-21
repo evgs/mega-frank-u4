@@ -13,6 +13,17 @@ This work is still in progress!
 - ESP-RESET connected to PGPIO36
 
 ## Documentation
-Coming soon...
+
+DIP Switches S1 description
+| Switch | Function |
+| ------ | ---------|
+| TDA    | Sound path through I2S TDA (On) or PWM (Off) |
+| TS     | Enable TurboSound path (On) |
+| TAPE   | Connect TAPE IN analog input to RP2540B |
+| MONO   | Mono (On) of Stereo (Off) sound path |
+| MPU    | Enable +3V3 external pullup on GPIO0/1 (Mouse/UART port) |
+| SHDN   | Shutdown (On) speaker amplifier PAM8403 (outputs J13, J14) |
+
+More coming soon...
 
 Please read detailed docs in original project [FRANK repository](https://github.com/rh1tech/frank)
