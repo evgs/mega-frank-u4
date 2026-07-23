@@ -2,10 +2,10 @@
 MegaFRANK is a hardware emulation platform built around the Raspberry Pi RP2350 QFN module
 ![board view](https://github.com/evgs/mega-frank-u4/blob/main/img/megafrank-u4.png)
 
+This work is still in progress!  
+
 ## DISCLAIMER 
 This megafrank-u4 board is a sub-fork from https://github.com/rh1tech/frank repository originally designed by [Mikhail Matveev](https://github.com/xtremespb)
-
-This work is still in progress!  
 
 ## Changes
 - Two stacked USB-A ports were added on front board edge. 4 USB-A host ports total
@@ -15,15 +15,26 @@ This work is still in progress!
 ## Documentation
 
 DIP Switches S1 description
-| Switch | Function |
-| ------ | ---------|
-| TDA    | Sound path through I2S TDA (On) or PWM (Off) |
-| TS     | Enable TurboSound path (On) |
-| TAPE   | Connect TAPE IN analog input to RP2540B |
-| MONO   | Mono (On) of Stereo (Off) sound path |
-| MPU    | Enable +3V3 external pullup on GPIO0/1 (Mouse/UART port) |
+| Switch | Function                                                   |
+| ------ | ---------------------------------------------------------- |
+| TDA    | Sound path through I2S TDA (On) or PWM (Off)               |
+| TS     | Enable TurboSound path (On)                                |
+| TAPE   | Connect TAPE IN analog input to RP2540B                    |
+| MONO   | Mono (On) of Stereo (Off) sound path                       |
+| MPU    | Enable +3V3 external pullup on GPIO0/1 (Mouse/UART port)   |
 | SHDN   | Shutdown (On) speaker amplifier PAM8403 (outputs J13, J14) |
 
+TDA/TS switches combinations
+| TDA    | TS     | Output selected        |
+| ------ | ------ | ---------------------- |
+| off    | off    | RP2350 PWM             |
+| **ON** | off    | I2S TDA1387T           |
+| off    | **ON** | Turbosound 2xAY-3-8910 |
+| **ON** | **ON** | Output Disabled        |
+
 More coming soon...
+
+Please read detailed docs in original project [FRANK repository](https://github.com/rh1tech/frank)
+
 
 Please read detailed docs in original project [FRANK repository](https://github.com/rh1tech/frank)
