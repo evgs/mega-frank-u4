@@ -35,6 +35,3 @@ TDA/TS switches combinations
 More coming soon...
 
 Please read detailed docs in original project [FRANK repository](https://github.com/rh1tech/frank)
-
-
-Please read detailed docs in original project [FRANK repository](https://github.com/rh1tech/frank)
