@@ -2,19 +2,15 @@
 MegaFRANK is a hardware emulation platform built around the Raspberry Pi RP2350 QFN module
 ![board view](https://github.com/evgs/mega-frank-u4/blob/main/img/megafrank-u4.png)
 
-This work is still in progress!  
-
 ## DISCLAIMER 
-This megafrank-u4 board is a sub-fork from https://github.com/rh1tech/frank repository originally designed by [Mikhail Matveev](https://github.com/xtremespb)
+This megafrank-u4 board is a sub-fork from https://github.com/rh1tech/frank repository originally designed by [Mikhail Matveev](https://github.com/xtremespb), [r1tech](https://github.com/rh1tech)
 
 ## Changes
 - Two stacked USB-A ports were added on front board edge. 4 USB-A host ports total
 - Power barrel 5mm connector was moved to right edge of the board
-- ESP-RESET connected to PGPIO36
+- ESP-RESET connected to PGPIO36 (optional, available if S11 jumper is closed) 
 
-## Documentation
-
-DIP Switches S1 description
+## DIP Switches S1 description
 | Switch | Function                                                   |
 | ------ | ---------------------------------------------------------- |
 | TDA    | Sound path through I2S TDA (On) or PWM (Off)               |
@@ -24,7 +20,7 @@ DIP Switches S1 description
 | MPU    | Enable +3V3 external pullup on GPIO0/1 (Mouse/UART port)   |
 | SHDN   | Shutdown (On) speaker amplifier PAM8403 (outputs J13, J14) |
 
-TDA/TS switches combinations
+## TDA/TS switches useful combinations
 | TDA    | TS     | Output selected        |
 | ------ | ------ | ---------------------- |
 | off    | off    | RP2350 PWM             |
@@ -32,6 +28,5 @@ TDA/TS switches combinations
 | off    | **ON** | Turbosound 2xAY-3-8910 |
 | **ON** | **ON** | Output Disabled        |
 
-More coming soon...
 
 Please read detailed docs in original project [FRANK repository](https://github.com/rh1tech/frank)
